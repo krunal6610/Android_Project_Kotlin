@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="25dp"
+    android:id="@+id/card_raw"
+    app:cardBackgroundColor="#3F51B5"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/raw_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Krunal Parekh"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:maxLines="1"
+            android:textSize="17sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/raw_email_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Krunal Parekh"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginBottom="12dp"
+            android:maxLines="8"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/raw_date_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Krunal Parekh"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginBottom="12dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textSize="11sp"
+            android:textColor="#FFFFFF"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
